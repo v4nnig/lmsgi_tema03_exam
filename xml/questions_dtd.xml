@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE questions SYSTEM "questions.dtd">
+<questions>
+    <question id="question001">
+        <type>radio</type>
+        <title>1.- Que comando sirve para listar los archivos de un directorio:</title>
+        <option>a) ls</option>
+        <option>b) dir</option>
+        <option>c) listfiles</option>
+        <option>d) Get-ChildItem</option>
+        <answer>1</answer>
+    </question>
+    <question id="question002">
+        <type>text</type>
+        <title>2.- Con que comando obtenemos la ruta del directorio actual</title>
+        <answer>pwd</answer>
+    </question>
+    <question id="question003">
+        <type>select</type>
+        <title>3.- El comando mkdir</title>
+        <option>a) Muestra la ruta de instalación</option>
+        <option>b) Crea un nuevo directorio</option>
+        <option>c) Muestra el directorio actual de trabajo</option>
+        <option>d) Crea un nuevo archivo</option>
+        <answer>2</answer>
+    </question>
+    <question id="question004">
+        <type>multiple</type>
+        <title>4.- Cual de las afirmaciones sobre Linux es correcta</title>
+        <option>a) Es un sistema operativo</option>
+        <option>b) Es de código abierto</option>
+        <option>c) Su verdadero nombre es GNU/Linux</option>
+        <option>d) Fue desarrollado por Bill Gates</option>
+        <answer>1</answer>
+        <answer>2</answer>
+        <answer>3</answer>
+    </question>
+    <question id="question005">
+        <type>checkbox</type>
+        <title>5.- Cual de las siguientes no es una distribución Linux</title>
+        <option>a) Debian</option>
+        <option>b) Ubuntu</option>
+        <option>c) Solaris</option>
+        <option>d) CentOS</option>
+        <answer>3</answer>
+    </question>
+    <question id="question006">
+        <type>text</type>
+        <title>6.- En cual sistema operativo está basado Linux</title>
+        <answer>UNIX</answer>
+    </question>
+    <question id="question007">
+        <type>select</type>
+        <title>7.- Cómo se le llama al intérprete de comandos en Linux</title>
+        <option>a) MsDos</option>
+        <option>b) Terminal</option>
+        <option>c) Putty</option>
+        <option>d) Bash</option>
+        <answer>4</answer>
+    </question>
+    <question id="question008">
+        <type>checkbox</type>
+        <title>5.- Cual de las afirmaciones son verdaderas</title>
+        <option>a) El comando cd sirve para abrir la bandeja del lector de Cds</option>
+        <option>b) El directorio raiz en linux es c:
+        </option>
+        <option>c) El sistema de archivos por defecto en linux es NTFS</option>
+        <option>d) Todos los programas compilados en linux funcionan sin cambios en windows</option>
+        <answer>0</answer>
+        <!-- Si la no seleccionamos opción la respuesta es 0 como en el caso de esta pregunta -->
+    </question>
+    <question id="question009">
+        <type>radio</type>
+        <title>5.- Con que comando puedo limpiar la pantalla</title>
+        <option>a) cls</option>
+        <option>b) clear</option>
+        <option>c) clean</option>
+        <option>d) limpiar</option>
+        <answer>2</answer>
+    </question>
+    <question id="question010">
+        <type>multiple</type>
+        <title>5.- Cuales distribuciones linux están basadas en Debian</title>
+        <option>a) Ubuntu</option>
+        <option>b) Archlinux</option>
+        <option>c) BunsenLabs</option>
+        <option>d) Kali Linux</option>
+        <answer>1</answer>
+        <answer>3</answer>
+        <answer>4</answer>
+    </question>
+</questions>
