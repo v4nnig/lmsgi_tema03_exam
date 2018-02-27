@@ -152,7 +152,7 @@ footer {
 	header #logo {
 		position: relative;
 		display: inline-block;
-		width: auto;
+		/* width: auto; */
 		height: 250px;
 	}
 	header #logo figure img {
@@ -210,7 +210,7 @@ footer {
 		text-align: center;
 		position: relative;
 		display: block;
-		width: 180;
+		width: 180px;
 		margin-left: auto;
 		margin-right: auto;
 		height: 140px;
@@ -267,7 +267,7 @@ footer {
 		line-height: 100px;
 		margin-top: -5px;
 	}
-	#navpage nav ul {}
+	/* #navpage nav ul {} */
 	#navpage nav ul li {
 		display: block;
 		width: 100%;
