@@ -210,7 +210,7 @@ footer {
 		text-align: center;
 		position: relative;
 		display: block;
-		width: 180px;
+		/* width: 180px; */
 		margin-left: auto;
 		margin-right: auto;
 		height: 140px;
