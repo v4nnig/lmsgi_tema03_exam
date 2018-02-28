@@ -60,18 +60,18 @@
     </question>
     <question id="question008">
         <type>checkbox</type>
-        <title>5.- Cual de las afirmaciones son verdaderas</title>
-        <option>a) El comando cd sirve para abrir la bandeja del lector de Cds</option>
-        <option>b) El directorio raiz en linux es c:
-        </option>
-        <option>c) El sistema de archivos por defecto en linux es NTFS</option>
+        <title>8.- Cual de las afirmaciones son verdaderas</title>
+        <option>a) El comando cd sirve para acceder a un directorio</option>
+        <option>b) El directorio raiz en windows es c:</option>
+        <option>c) El sistema de archivos por defecto en windows es NTFS</option>
         <option>d) Todos los programas compilados en linux funcionan sin cambios en windows</option>
-        <answer>0</answer>
-        <!-- Si la no seleccionamos opción la respuesta es 0 como en el caso de esta pregunta -->
+        <answer>1</answer>
+		<answer>2</answer>
+		<answer>3</answer>
     </question>
     <question id="question009">
         <type>radio</type>
-        <title>5.- Con que comando puedo limpiar la pantalla</title>
+        <title>9.- Con que comando puedo limpiar la pantalla</title>
         <option>a) cls</option>
         <option>b) clear</option>
         <option>c) clean</option>
@@ -80,7 +80,7 @@
     </question>
     <question id="question010">
         <type>multiple</type>
-        <title>5.- Cuales distribuciones linux están basadas en Debian</title>
+        <title>10.- Cuales distribuciones linux están basadas en Debian</title>
         <option>a) Ubuntu</option>
         <option>b) Archlinux</option>
         <option>c) BunsenLabs</option>
