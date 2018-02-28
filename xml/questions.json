@@ -1,0 +1,128 @@
+{
+    "questions": {
+      "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+      "-xsi:noNamespaceSchemaLocation": "questions_xsd_solution.xsd",
+      "question": [
+        {
+          "-id": "question001",
+          "type": "radio",
+          "title": "1.- Que comando sirve para listar los archivos de un directorio:",
+          "option": [
+            "a) ls",
+            "b) dir",
+            "c) listfiles",
+            "d) Get-ChildItem"
+          ],
+          "answer": "1"
+        },
+        {
+          "-id": "question002",
+          "type": "text",
+          "title": "2.- Con que comando obtenemos la ruta del directorio actual",
+          "answer": "pwd"
+        },
+        {
+          "-id": "question003",
+          "type": "select",
+          "title": "3.- El comando mkdir",
+          "option": [
+            "a) Muestra la ruta de instalación",
+            "b) Crea un nuevo directorio",
+            "c) Muestra el directorio actual de trabajo",
+            "d) Crea un nuevo archivo"
+          ],
+          "answer": "2"
+        },
+        {
+          "-id": "question004",
+          "type": "multiple",
+          "title": "4.- Cual de las afirmaciones sobre Linux es correcta",
+          "option": [
+            "a) Es un sistema operativo",
+            "b) Es de código abierto",
+            "c) Su verdadero nombre es GNU/Linux",
+            "d) Fue desarrollado por Bill Gates"
+          ],
+          "answer": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "-id": "question005",
+          "type": "checkbox",
+          "title": "5.- Cual de las siguientes no es una distribución Linux",
+          "option": [
+            "a) Debian",
+            "b) Ubuntu",
+            "c) Solaris",
+            "d) CentOS"
+          ],
+          "answer": "3"
+        },
+        {
+          "-id": "question006",
+          "type": "text",
+          "title": "6.- En cual sistema operativo está basado Linux",
+          "answer": "UNIX"
+        },
+        {
+          "-id": "question007",
+          "type": "select",
+          "title": "7.- Cómo se le llama al intérprete de comandos en Linux",
+          "option": [
+            "a) MsDos",
+            "b) Terminal",
+            "c) Putty",
+            "d) Bash"
+          ],
+          "answer": "4"
+        },
+        {
+          "-id": "question008",
+          "type": "checkbox",
+          "title": "8.- Cual de las afirmaciones son verdaderas",
+          "option": [
+            "a) El comando cd sirve para acceder a un directorio",
+            "b) El directorio raiz en windows es c:",
+            "c) El sistema de archivos por defecto en windows es NTFS",
+            "d) Todos los programas compilados en linux funcionan sin cambios en windows"
+          ],
+          "answer": [
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "-id": "question009",
+          "type": "radio",
+          "title": "9.- Con que comando puedo limpiar la pantalla",
+          "option": [
+            "a) cls",
+            "b) clear",
+            "c) clean",
+            "d) limpiar"
+          ],
+          "answer": "2"
+        },
+        {
+          "-id": "question010",
+          "type": "multiple",
+          "title": "10.- Cuales distribuciones linux están basadas en Debian",
+          "option": [
+            "a) Ubuntu",
+            "b) Archlinux",
+            "c) BunsenLabs",
+            "d) Kali Linux"
+          ],
+          "answer": [
+            "1",
+            "3",
+            "4"
+          ]
+        }
+      ]
+    }
+  }
