@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' href="css/style.css">
+    <!--    <link rel="icon" type="image/png" href="favicon.ico" />-->
+  <!--<script type="text/javascript" src='js/hidem.js'></script>-->
+    <script src='js/script.js'></script>
+    <meta charset="utf-8">
+    <title>Instituto A.F.C</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="navpage">
+            <nav>
+                <ul>
+                    <!--<img id="openMenu" src="img/ic_menu_black_24px.svg" alt="">-->
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="exam.html">Examen</a></li>
+                    <li><a href="about.html">Quienes somos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="page">
+            <header>
+                <!--<div id="navpage">-->
+                <!--    <nav>-->
+                <!--        <ul>-->
+                <!--            <li><a href="">Inicio</a></li>-->
+                <!--            <li><a href="">Examen</a></li>-->
+                <!--            <li><a href="">Quienes somos</a></li>-->
+                <!--        </ul>-->
+                <!--    </nav>-->
+                <!--</div>-->
+                <div id="logo">
+                    <figure>
+                        <img src="img/logo.svg" alt="">
+                    </figure>
+                </div>
+                <div id="titulo">
+                    <div class="caja"></div>
+                    <div class="caja">
+                        <h1>Instituto A.F.C</h1>
+                    </div>
+                    <div class="caja">
+                        <h2>"Adoctrinamiento de los Futuros Cyborgs"</h2>
+                    </div>
+                </div>
+
+            </header>
+            <nav>
+                <img id="openMenu" src="img/ic_menu_black_24px.svg" alt="">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="exam.html">Examen</a></li>
+                    <li><a href="about.html">Quienes somos</a></li>
+                </ul>
+            </nav>
+            <section id="form">
+                <form id='myform'>
+                    <!-- question001 - radio -->
+                    <h3 id='question001'></h3>
+                    <div id='divQuestion001'>
+                    </div>
+
+                    <!-- question002 - text -->
+                    <h3 id='question002'></h3>
+                    <div id='divQuestion002'>
+                        <input type="text" id="entradaQuestion002" name="entradaQuestion002" />
+                    </div>
+
+                    <!-- question003 - select -->
+                    <h3 id='question003'></h3>
+                    <div id='divQuestion003'>
+                        <select id='selQuestion003'>
+                            <option selected value="-1">Selecciona una...</option>
+                        </select>
+                    </div>
+
+                    <!-- question004 - multiple -->
+                    <h3 id='question004'></h3>
+                    <div id='divQuestion004'>
+                        <select multiple>
+                            <option selected value="-1">Selecciona una...</option>
+                        </select>
+                    </div>
+
+                    <!-- question005 - checkbox -->
+                    <h3 id='question005'></h3>
+                    <div id='divQuestion005'>
+                    </div>
+                    <!-- question006 - text -->
+                    <h3 id='question006'></h3>
+                    <div id='divQuestion006'>
+                        <input type="text" id="entradaQuestion006" name="entradaQuestion006" />
+                    </div>
+
+                    <!-- question007 - select -->
+                    <h3 id='question007'></h3>
+                    <div id='divQuestion007'>
+                        <select id='selQuestion007'>
+                            <option selected value="-1">Selecciona una...</option>
+                        </select>
+                    </div>
+
+                    <!-- question008 - checkbox -->
+                    <h3 id='question008'></h3>
+                    <div id='divQuestion008'>
+                    </div>
+
+                    <!-- question009 - radio -->
+                    <h3 id='question009'></h3>
+                    <div id='divQuestion009'>
+                    </div>
+
+                    <!-- question010 - multiple -->
+                    <h3 id='question010'></h3>
+                    <div id='divQuestion010'>
+                        <select multiple>
+                            <option selected value="-1">Selecciona una...</option>
+                        </select>
+                    </div>
+
+                    <div id='submit'>
+                        <input type='submit' value='Corregir'>
+                    </div>
+                </form>
+                <div id='resultadosDiv'></div>
+            </section>
+            <footer>
+                <div>
+                    <p>Copyright 2017</p>
+                </div>
+            </footer>
+        </div>
+        <!-- #page -->
+    </div>
+    <!-- #wrapper -->
+</body>
+
+</html>
