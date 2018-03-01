@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
     <xs:element name="questions">
+    	<xs:annotation>
+			<xs:documentation>El archivo xml a validar con este esquema se llama "questions_xsd.xml". El diseño del esquema utilizado es del tipo Russian Doll</xs:documentation>
+		</xs:annotation>
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="question" maxOccurs="10" minOccurs="10">
